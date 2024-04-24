@@ -45,5 +45,7 @@ Put messages :
 bin\windows\kafka-console-producer.bat --topic user-topic --bootstrap-server localhost:9092
 
 consume message :
-
+-- from beginner
 bin\windows\kafka-console-consumer.bat --topic user-topic --from-beginning --bootstrap-server localhost:9092
+-- only unconsumed messages
+bin\windows\kafka-console-consumer.bat --topic user-topic --bootstrap-server localhost:9092
