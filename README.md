@@ -43,4 +43,4 @@ bin\windows\kafka-topics.bat --create --topic topic-name --bootstrap-server loca
 
 Put messages :
 
-bin\windows\kafka-console-producer.bat --topic user-topic --bootstrap-server localhost:9092
+bin\windows\kafka-console-producer.bat --topic topic-name --bootstrap-server localhost:9092
