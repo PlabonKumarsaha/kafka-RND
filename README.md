@@ -42,5 +42,8 @@ Create topic command :
 bin\windows\kafka-topics.bat --create --topic topic-name --bootstrap-server localhost:9092
 
 Put messages :
+bin\windows\kafka-console-producer.bat --topic user-topic --bootstrap-server localhost:9092
 
-bin\windows\kafka-console-producer.bat --topic topic-name --bootstrap-server localhost:9092
+consume message :
+
+bin\windows\kafka-console-consumer.bat --topic user-topic --from-beginning --bootstrap-server localhost:9092
